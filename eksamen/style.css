@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu {
+    background-color: rgb(98, 187, 113);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 0px 10px 0.5px rgba(0,0,0,.8);
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#menu a:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+#sites {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 3;
+}
+
+#sites a {
+    margin-right: 100px;
+}
+
+#menu img {
+    height: auto;
+    margin: 10px;
+    width: 75%;
+}
+
+#header {
+    background-image: url(header.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    padding: 100px;
+}
+
+#header p, #header button {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 50%;
+    color: white;
+}
+
+#header p {
+    padding-top: 150px;
+    text-shadow: black 0px 0px 5px;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: rgb(98, 187, 113);
+    transition: 0.1s;
+    padding: 15px;
+    border: 0;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(29, 95, 40);
+    color: rgb(192, 192, 192);
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10em;
+    margin-left: 10em;
+    margin-bottom: 5em;
+}
+
+
+#content img, #content .innercolumn {
+    flex: 1;
+}
+
+#content p {
+    align-self: center;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#content {
+    margin-top: 5em;
+}
+
+#content img {
+    width: 13em;
+}
+
+.innercolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* bestilling */
+
+.BESTILLING{
+    margin: 5%;
+    background-color: white;
+    margin-top: 10em;
+}
+
+.ticketdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tickets{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(98, 187, 113);
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+.radio{
+    align-self: center;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(98, 187, 113);
+    padding: 25px;
+    font-weight: 600;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text{
+    font-weight: 600;
+    margin-left: 1rem;
+    font-family: calibri;
+}
+
+.specialticket{
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+select{
+    align-self: center;
+    margin-left: 0.5rem;
+    height: 2rem;
+}
+
+.selectstuff{
+    font-family: calibri;
+    height: 1rem;
+    align-self: center;
+}
+
+.heightfix{
+    height: 1rem;
+}
+
+.extramargin{
+    margin-top: 2rem;
+}
+
+.checkout{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 10px;
+    font-family: calibri;
+    background-color: rgb(98, 187, 113);
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 20%;
+}
+
+.productprice{
+    flex: 1;
+}
+
+hr{
+    border: rgb(29, 95, 40) solid 1px;
+    background-color: rgb(29, 95, 40);
+}
+
+.flexend{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.button{
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 17px;
+}

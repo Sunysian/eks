@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>bestil billeter</title>
+</head>
+<body>
+    <div id="menu">
+        <a href="index.html"><img src="liggende-kommunevaapen-pms.svg" alt="Kongsberg kommune logo"></a>
+        <div id="sites">
+            <a href="index.html">Hjem</a>
+            <a href="omKong.html">Om kongsberg</a>
+            <a href="safarijeep.html"><u>bestil billeter</u></a>
+        </div>
+    </div>
+
+    <div class="BESTILLING">
+        <h1>BESTILLING</h1>
+        <h2 class="text">Fyll inn</h2>
+        <div class="text">
+            <p>Navn</p>
+            <input type="text" id="navn">
+            <p class="extramargin">Adresse</p>
+            <input type="text" id="adresse">
+            <p class="extramargin">E-post</p>
+            <input type="text" id="epost">
+            <p class="extramargin">Telefonnumer</p>
+            <input type="text" id="telefonnumer">
+        </div>
+
+        <h2 class="text extramargin">Type billeter</h2>
+        <div class="ticketdiv">
+            <div class="tickets smallticket" id="barnbillet">
+                <p><b>Barn</b><br>(under 12)<br>199kr</p>
+                <input type="checkbox" name="tickettype" class="radio" value="269" id="barn" onchange="beregn(), addinput('barnbillet')">
+            </div>
+            <div class="tickets" id="voksenbillet">
+                <p><b>Voksen</b><br><br>369kr</p>
+                <input type="checkbox" name="tickettype" class="radio" value="199" id="voksen" onchange="beregn(), addinput('voksenbillet')">
+            </div>
+            <div class="tickets" id="eldrebillet">
+                <p st><b>Eldre</b><br>(over 60)<br>249kr</p>
+                <input type="checkbox" name="tickettype" class="radio" value="349" id="eldre" onchange="beregn(), addinput('eldrebillet')">
+            </div>
+        </div>
+
+        
+        <h1>Checkout</h1>
+        <div class="checkout">
+            <div class="row ">
+                <div>
+                    <p class="text" id="typebil"></p>
+                    <p class="text color-correction" id="bilpp"></p>
+                </div>
+                <div class="productprice">
+                    <p class="flexend" id="bilpris"></p>
+                </div>
+            </div>
+            <div class="row ">
+                <div>
+                    <p class="text" id="antalldessert"></p>
+                    <p class="text color-correction" id="dessertpp"></p>
+                </div>
+                <div class="productprice">
+                    <p class="flexend" id="dessertpris"></p>
+                </div>
+            </div>
+            <hr>
+            <div class="text flexend column">
+                <p id="totalpris">total + pris</p>
+                <button class="button" onclick="checkout()">betal</button>
+            </div>     
+        </div>
+        <p>‎</p>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!-- original kode fra en av mine prosjekter, endret det til å passe her-->

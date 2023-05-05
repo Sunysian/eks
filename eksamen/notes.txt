@@ -1,0 +1,32 @@
+To summerise, tourism has increased in Kongsberg, and the area so happen to have a cave mining system that is no longer in use, which also happens to be filled with rich history. In the winter, people come to ski, but it has been also been brainstormed of what could be done in the summer.
+
+This is what they came up with:
+- Jeep safari
+- various cycling activites
+- summer activites in the sku center and train-station-thing-I-think
+
+
+It has been decided that in the summer, there will be a trail of jeep jeep safari in the mine ridge, which is hoped to become a permanant offer in Kongsberg.
+
+the activity itself will consist of three cars that drive after one another on this route:
+Norsk Bergverksmuseum - Kronene i Håvet - Funkelia - Korset - Haus Sachsen gruve - Sakkerhausene i Saffrenda
+
+Under the  tour, the participants will be informed about the cultural monuments and offered refreshments.
+
+They want to make a home website to advertise this activity, and that is the task required to be done.
+
+
+
+
+So, how the fuck am I going to solve this problem/case?
+It is simple enough. I will make a website talking about Kongsberg, and there, people should be able to read about the tour og the safari jeep, and they should be able to order tickets for the safari jeep.
+
+
+Tabs that need to be made:
+- home
+- about Kongsberg
+- tickets for activities (the rest of the activites will be greyed out, a for the future kind of thing)
+
+
+
+(the website needs to be responsive and the code needs to have comments in it)
